@@ -12,7 +12,7 @@ router.get("/", async (req, res) => {
       task: task.task,
       done: task.done,
     }));
-    res.status(200).json(tasks);
+    res.status(200).json(tasksWithId);
   } catch (err) {
     res.status(500).json({ error: err.message });
   }

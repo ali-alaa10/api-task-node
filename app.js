@@ -9,7 +9,7 @@ const port = 3000;
 app.use(express.json());
 
 // DB Connection
-mongoose.connect("mongodb://localhost:27017/todo-api");
+mongoose.connect("mongodb://mongo:27017/todo-api");
 
 const db = mongoose.connection;
 
