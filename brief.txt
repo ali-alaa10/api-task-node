@@ -1,7 +1,0 @@
-In this project, I built a RESTful API for a Todo application using Node.js, Express, and MongoDB
-
-1. Created a MongoDB schema for Todo items with task description and completion status fields
-2. I Created a Four Method (CRUD) and Use All Them
-3. I Make Status Code For Success (201) for Post Method
-4. I Make Status Code For Success (200) for Get and Put Method 
-5. I Make Status Code For Delete (204) for Delete Method
